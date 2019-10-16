@@ -35,7 +35,6 @@ export default {
     //   return this.blogs.filter((blog) => {
     //     return blog.title.match(this.search);
     //   });
-    }
   },
   filters: {
     'to-uppercase': function(value){
@@ -54,7 +53,7 @@ export default {
       }
     }
   },
-  mixins: [searchMixin];
+  mixins: [searchMixin]
 }
 
 </script>
