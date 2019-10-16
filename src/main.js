@@ -19,7 +19,7 @@ Vue.directive('theme', {
       el.style.maxWidth = '560px'
     } 
     if (binding.arg == 'column'){
-      el.style.background = '#ddd';
+      el.style.background = 'white';
       el.style.padding = '20px';
     }
   }
